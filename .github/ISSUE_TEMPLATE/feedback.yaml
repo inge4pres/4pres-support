@@ -1,0 +1,14 @@
+name: Feedback
+description: Send feedback to the team
+labels: [ "feedback" ]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to share your thoughts on 4pr.es!
+  - type: textarea
+    id: feedback-text
+    attributes:
+      label: Let the team know.
+      description: If you wish to be contacted back, please leave an email address where we can reach you.
