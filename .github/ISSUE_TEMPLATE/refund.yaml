@@ -1,0 +1,22 @@
+name: Refund payment
+description: Ask for a payment refund
+labels: [ "refund" ]
+
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: We're sorry for the inconvenience. Let us know what happened.
+      description: Please leave an email below to be contacted.
+      placeholder: |
+        Describe why you should be refund.
+        Include the order and transaction IDs that were displayed to you.
+    validations:
+      required: true
+  - type: textarea
+    id: email
+    attributes:
+      description: Your email.
+      placeholder: myself@mail.to
+    validations:
+      required: true
