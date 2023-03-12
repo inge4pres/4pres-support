@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: email
     attributes:
-      description: Your email.
+      label: Your email.
       placeholder: myself@mail.to
     validations:
       required: true
